@@ -1,0 +1,40 @@
+/* background */
+.footer {
+  background-color: var(--bg);
+  width: 100%;
+  height: 7vh;
+}
+/* text */
+.by {
+  color: var(--text);
+  font-weight: 200;
+}
+
+/* icons */
+.social-icon {
+  font-size: 25px;
+  color: var(--text);
+  opacity: 0.5;
+  margin: 2px;
+  transition: 1s ease;
+}
+
+.social-icon-def {
+  font-size: 31px;
+  color: var(--text);
+  opacity: 0.5;
+  transition: 1s ease;
+}
+
+.social-icon:hover{
+  font-size: 25px;
+  color: var(--text);
+  opacity: 1;
+  margin: 2px;
+}
+
+.social-icon-def:hover {
+  font-size: 31px;
+  color: var(--text);
+  opacity: 1;
+}

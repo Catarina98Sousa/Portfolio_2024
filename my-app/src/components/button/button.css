@@ -1,0 +1,97 @@
+.btn-primary {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--btn-primary);
+  color: var(--text);
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 180px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  transition: 0.5s ease;
+}
+.btn-primary:hover {
+  transition: 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--btn-secundary);
+  color: var(--text);
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 180px;
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn-secundary {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--btn-secundary);
+  color: var(--text);
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 100px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: 0.5s ease;
+}
+
+.btn-secundary:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--btn-primary);
+  color: var(--text);
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 100px;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: 0.5s ease;
+}
+
+.swicth-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--swicth-btn);
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.icon-switch {
+  width: 15px;
+}
+
+.icon-btn {
+  font-size: 20px;
+  margin-right: 10px;
+  font-weight: var(--title-weight);
+}

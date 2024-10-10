@@ -1,0 +1,95 @@
+/* background */
+.Contact {
+  width: 100%;
+  height: 80vh;
+  background: var(--bg-color-2);
+}
+
+/* header page */
+.icon {
+  width: 30px;
+}
+
+.location {
+  font-weight: var(--title-weight);
+  color: var(--text);
+  font-size: 40px;
+}
+.city {
+  font-weight: var(--title-weight);
+  color: var(--text);
+  font-size: 30px;
+}
+
+.text-end {
+  text-align: end;
+}
+/* Social midia */
+.midia {
+  width: 100%;
+  max-width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-big-def{
+  font-size: 110px;
+  color: var(--text);
+  transition: 0.5s ease;
+  }
+  
+  .social-big-def:hover{
+    font-size: 110px;
+    color: var(--secundary-color);
+    }
+
+.social-big{
+font-size: 105px;
+color: var(--text);
+padding: 10px;
+transition: 0.5s ease;
+}
+
+.social-big:hover{
+  font-size: 105px;
+  padding: 10px;
+  color: var(--secundary-color);
+  }
+/* Info */
+.info {
+  color: var(--text);
+  font-size: 20px;
+}
+.border {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*border: 4px solid var(--text);*/
+  /*border-radius: 20px;*/
+}
+.sub-title {
+  font-size: var(--sub-title-size);
+}
+
+.mail {
+  font-size: 30px;
+  transition: 0.5s ease;
+}
+.mail:hover {
+  font-size: 30px;
+  color: var(--secundary-color);
+  
+}
+
+.number {
+  font-size: 30px;
+  transition: 0.5s ease;
+}
+.number:hover {
+  font-size: 30px;
+  color: var(--secundary-color);
+  
+}
+

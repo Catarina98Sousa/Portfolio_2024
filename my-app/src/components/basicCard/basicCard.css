@@ -1,0 +1,34 @@
+.basic-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-card);
+  border-radius: 8px;
+  border: 1px solid var(--bg-card);
+  max-width: 330px;
+}
+
+.basic-card__img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.basic-card__body {
+  padding: 30px 30px;
+}
+
+.basic-card__body h5 {
+  font-size: 28px;
+  color: var(--text);
+}
+.center-position {
+  display: flex;
+  justify-content: center;
+}
+
+.basic-card__body a {
+  margin-top: 50px;
+  font-size: 18px;
+}
