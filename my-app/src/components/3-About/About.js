@@ -4,7 +4,7 @@ import "../button/button.css";
 
 /* img/icons */
 import { Profile, ProfileDark } from "../../images/galery/profile.js";
-/* import { BsFillFileEarmarkPdfFill } from "react-icons/bs"; */
+ import { BsFillFileEarmarkPdfFill } from "react-icons/bs"; 
 
 
 
@@ -42,7 +42,7 @@ function About(props) {
                   
                   <p>
                     <span className="icon-btn">
-                     {/*  <BsFillFileEarmarkPdfFill /> */}
+                       <BsFillFileEarmarkPdfFill /> 
                     </span>
                     Download CV <span className="lang"> EN</span>
                   </p>
@@ -54,7 +54,7 @@ function About(props) {
 
                   <p>
                     <span className="icon-btn">
-                     {/*  <BsFillFileEarmarkPdfFill /> */}
+                       <BsFillFileEarmarkPdfFill /> 
                     </span>
                     Download CV <span className="lang"> PT</span>
                   </p>

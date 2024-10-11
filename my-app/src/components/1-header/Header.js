@@ -61,11 +61,7 @@ function Header(props) {
                 About
               </Link>
             </li>
-            <li className="nav-item">
-            <Link to="skill" spy={true} smooth={true} offset={-50} duration={500} className="nav-item" >
-                Skills
-              </Link>
-            </li>
+            
             <li className="nav-item">
             <Link to="projects" spy={true} smooth={true} offset={-58} duration={500} className="nav-item" >
                 Projects

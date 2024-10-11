@@ -8,6 +8,7 @@ import useLocalStorage from "use-local-storage";
 import Header from './components/1-header/Header.js';
 import Banner from './components/2-banner/Banner.js';
 import About from './components/3-About/About.js';
+import Projects from './components/5-projects/projects.js'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Header theme={theme} handleThemeChange={switchTheme} />
       <Banner/>
       <About/>
+      <Projects/>
 
     </div>
   );
