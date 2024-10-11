@@ -1,1 +1,106 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
+
+/* Root */
+:root {
+    /* background */
+  
+    --bg: #f5f7fb;
+    --bg-color: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.3)
+      ),
+      linear-gradient(180deg, #f2bb88 0%, #f0215f 100%);
+    --bg-color-2: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.2),
+        rgba(255, 255, 255, 0.2)
+      ),
+      linear-gradient(180deg, #f0215f 0%, #f59193 100%);
+    --header-color: rgb(255, 255, 255);
+    --bg-card: #f5f5f5;
+  
+    /* profile */
+    --prof-img: url('./images/galery/profile-pic.png');
+  
+    /* color */
+    --main-color: #f0215f;
+    --btn-primary: linear-gradient(270deg, #f59193 0%, #f0215f 100%);
+    --btn-secundary: linear-gradient(90deg, #f59193 0%, #f2bb88 100%);
+    --swicth-btn: #f0215f;
+    --secundary-color: #f0215f;
+  
+    /*   texts */
+    --text: black;
+    --intro-color: #f0215f;
+    --intro-weight: 700;
+    --intro-size: 25px;
+    --sub-title-color: black;
+    --sub-title-size: 40px;
+    --title-color: black;
+    --title-weight: 500;
+    --title-size: 75px;
+  }
+  
+  [data-theme="dark"] {
+    /* background */
+    --bg: #333;
+    --bg-color: linear-gradient(180deg, #f0215f 0%, #3428ad 100%);
+    --bg-color-2: linear-gradient(180deg, #3428ad 0%, #ac3584 100%);
+    --header-color: rgba(0, 0, 0, 0.8);
+    --bg-card: #25233b;
+  
+     /* profile */
+     --prof-img: url('./images/galery/profile-picd.png');
+  
+    /* color */
+    --btn-primary: linear-gradient(90deg, #ac3584 0%, #ed366c 100%);
+    --btn-secundary: linear-gradient(90deg, #3428ad 0%, #ac3584 100%);
+    --swicth-btn: #f0215f;
+    --secundary-color: #f0215f;
+  
+    /* texts */
+    --text: white;
+    --intro-text: white;
+    --intro-color: #f0215f;
+    --intro-weight: 700;
+    --intro-size: 25px;
+    --sub-title-color: white;
+    --sub-title-size: 40px;
+    --title-color: white;
+    --title-weight: 500;
+    --title-size: 75px;
+  }
+  /* Geral Css */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    position: relative;
+    font-family: Poppins, Lexend, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text);
+  }
+  a:hover {
+    text-decoration: none;
+    color: var(--secundary-color);
+    transition: 0.5s ease;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .title {
+    font-weight: var(--title-weight);
+    color: var(--text);
+  }
+  

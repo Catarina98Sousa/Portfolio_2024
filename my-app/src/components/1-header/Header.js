@@ -43,10 +43,12 @@ function Header(props) {
 
   return (
     <header className={header ? "header active" : "header"}>
+      <div className="nav-wrapper">
       <div className="nav">
         <a href="#home" className="logo">
           <img src={props.theme === "light" ? Logo : LogoDark} alt="logo" />
         </a>
+
         <div className="menu">
           <ul className={active}>
             <li className="nav-item">
@@ -74,14 +76,14 @@ function Header(props) {
             Contact
               </Link>
             </li>
+            <button className="swicth-btn" onClick={props.handleThemeChange}>
+              <img
+                src={props.theme === "light" ? Moon : Sun}
+                className="icon-switch"
+                alt="mode"
+              />
+            </button>
           </ul>
-          <button className="swicth-btn" onClick={props.handleThemeChange}>
-            <img
-              src={props.theme === "light" ? Moon : Sun}
-              className="icon-switch"
-              alt=""
-            />
-          </button>
 
           <div onClick={navToggle} className={togglerIcon}>
             <div className="line1"></div>
@@ -89,6 +91,7 @@ function Header(props) {
             <div className="line3"></div>
           </div>
         </div>
+      </div>
       </div>
     </header>
   );
