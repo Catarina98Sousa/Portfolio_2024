@@ -7,6 +7,7 @@ import useLocalStorage from "use-local-storage";
 /* parts */
 import Header from './components/1-header/Header.js';
 import Banner from './components/2-banner/Banner.js';
+import About from './components/3-About/About.js';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <div className="App" data-theme={theme}>
       <Header theme={theme} handleThemeChange={switchTheme} />
       <Banner/>
+      <About/>
 
     </div>
   );
