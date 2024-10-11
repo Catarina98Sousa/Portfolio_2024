@@ -8,7 +8,9 @@ import useLocalStorage from "use-local-storage";
 import Header from './components/1-header/Header.js';
 import Banner from './components/2-banner/Banner.js';
 import About from './components/3-About/About.js';
-import Projects from './components/5-projects/projects.js'
+import Projects from './components/5-projects/projects.js';
+import Contact from './components/6-contacts/contact.js';
+import Footer from './components/7-footer/footer.js';
 
 
 function App() {
@@ -30,6 +32,9 @@ function App() {
       <Banner/>
       <About/>
       <Projects/>
+      <Contact/>
+      <Footer/>
+      
 
     </div>
   );

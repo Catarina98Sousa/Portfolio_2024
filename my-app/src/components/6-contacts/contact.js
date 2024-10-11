@@ -20,48 +20,12 @@ function Contact(props) {
   return (
     <div className="Contact py-3" id="contact">
       <div className="container-md container-sm py-5">
-        <div className="row mx-5 mb-5 justify-content-between align-items-baseline">
-          <div className="col-md col-sm">
-            {/* <Fade left oposite cascade> */}
-              <h1 className="title mb-5">Contact</h1>
-            {/* </Fade> */}
-          </div>
-         {/*  <Fade right oposite delay={500} cascade> */}
-            <div className="col-md-3 col-sm tex-end">
-              <p className="location">
-                <BsGeoAltFill /> Portugal,
-              </p>
-              <p className="city">Lisbon</p>
-            </div>
-         {/*  </Fade> */}
+        <div className="col-md col-sm">
+          <h1 className="title mb-5">Contact</h1>
         </div>
-
-        <div className="row pt-5 col-md"></div>
-        <div className="row pt-5 d-flex align-items-center">
-          <div className="col-md-1"></div>
-          <div className="col-md-3 col-sm">
-            {/* <Zoom cascade> */}
-              <div className="d-flex flex-wrap justify-content-center align-self-center">
-                <a href="https://www.linkedin.com/in/catarina-sousa-386b69247/" className="midia">
-                 <BsLinkedin className="social-big" />
-                </a>
-                <a href="#contact" className="midia">
-                <BsWhatsapp className="social-big" />
-                </a>
-                <a href="https://codepen.io/SakuraCat" className="midia">
-                <AiFillCodepenSquare className="social-big-def"/>
-                </a>
-
-                <a href="https://github.com/Catarina98Sousa" className="midia">
-                 <BsGithub className="social-big" /> 
-
-                </a>
-              </div>
-            {/* </Zoom> */}
-          </div>
+      <div className="row pt-5 d-flex align-items-center">
           <div className="col-md col-sm">
             <div className="info mx-5">
-              {/* <Fade right delay={500} cascade> */}
                 <div className=" border mb-4">
                   <div className="d-flex justify-content-center align-items-center">
                     <p className="d-flex align-items-center sub-title">
@@ -82,7 +46,6 @@ function Contact(props) {
                   </div>
                   
                 </div>
-              {/* </Fade> */}
             </div>
           </div>
           <div className="col-md-1"></div>
