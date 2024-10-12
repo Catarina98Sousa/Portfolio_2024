@@ -11,30 +11,28 @@
 }
 
 /* icons */
-.social-icon {
-  font-size: 25px;
-  color: var(--text);
-  opacity: 0.5;
-  margin: 2px;
-  transition: 1s ease;
-}
 
-.social-icon-def {
-  font-size: 31px;
-  color: var(--text);
+.social-icon {
+  
+  color: var(--bg);
+  background-color: var(--text);
+  border: 2px solid var(--text);
+  border-radius: 5px;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
   opacity: 0.5;
-  transition: 1s ease;
+  margin-left:5px ;
+  margin-right:5px ;
+  transition: 0.5s ease-in-out;
 }
 
 .social-icon:hover{
   font-size: 25px;
-  color: var(--text);
+  color: var(--bg);
   opacity: 1;
   margin: 2px;
 }
 
-.social-icon-def:hover {
-  font-size: 31px;
-  color: var(--text);
-  opacity: 1;
-}

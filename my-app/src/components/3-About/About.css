@@ -1,21 +1,77 @@
-.profile {
+
+.About{
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  padding-right:20px ;
+  margin: auto;
+  margin: auto;
+  background-color: var(--bg);
+}
+.About-wrapper{
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 100px;
+  margin: auto;
+  margin: auto;
+}
+.content-wrapper{
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 50px;
+  margin: auto;
+  margin: auto;
+  display: flex;
+}
+.profile{
+  width: 50%;
+}
+.pic-profile{
   width: 100%;
 }
-.About{
-  background-color: var(--bg);
-  padding-bottom: 100px;
+
+.wrapper-info{
+  
+background-color: rgb(87, 119, 189);
+width: 50%;
+padding-top: 60px;
+padding-bottom: 40px;
 }
 
 .text {
-  display: flex;
-  flex-wrap: wrap;
-  color: var(--text);
-  font-weight: 400;
-  font-size: 20px;
+  
+background-color: palevioletred;
+width: 100%;
+height: 40%;
+color: var(--text);
+padding-bottom: 20px;
+text-align:center;
+font-size: 16px;
 }
 
+.wrapper-skill{
+  width: 100%;
+  height: 60%;
+background-color: peru;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.list-tab-btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}    
+
+.cv-btn-wrapper{
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+}
 .lang {
-  padding-left: 10px;
+  padding-left: 5px;
   color: var(--text);
   font-weight: 700;
   text-decoration: underline;

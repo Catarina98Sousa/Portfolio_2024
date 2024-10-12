@@ -7,19 +7,12 @@
   color: var(--text);
   border: none;
   border-radius: 50px;
-  width: 100%;
-  max-width: 300px;
-  min-width: 180px;
-  height: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
+
 
   transition: 0.5s ease;
 }
 .btn-primary:hover {
-  transition: 0.5s ease;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,14 +20,7 @@
   color: var(--text);
   border: none;
   border-radius: 50px;
-  width: 100%;
-  max-width: 500px;
-  min-width: 180px;
-  height: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 .btn-secundary {
@@ -83,18 +69,74 @@
   background-color: var(--swicth-btn);
   border: none;
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 35px;
+  width: 35px;
   margin-left: 30px;
   margin-right: 30px;
+  transition: 0.5s ease-in-out;
+}
 
+.swicth-btn:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secundary-color);
+  border: none;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
+
 .icon-switch {
-  width: 15px;
+  width: 20px;
+  transition: 0.5s ease-in-out;
 }
+
 
 .icon-btn {
   font-size: 20px;
-  margin-right: 10px;
+  padding-right: 5px;
   font-weight: var(--title-weight);
+}
+
+.tab-btn{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg);
+  color: var(--text);
+  border: none;
+  padding: 10px;
+  border-bottom: 4px solid var(--bg);
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+
+.tab-btn:hover{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg);
+  color: var(--text);
+  border: none;
+  padding: 10px;
+  border-bottom: 4px solid var(--secundary-color);
+  font-size: 18px;
+}
+
+.tab-btn:active{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg);
+  color: var(--text);
+  border: none;
+  padding: 10px;
+  border-bottom: 4px solid var(--main-color);
+  font-size: 18px;
 }

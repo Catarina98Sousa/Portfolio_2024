@@ -44,12 +44,12 @@ a.nav-item{
 
 a.nav-item:hover{
   padding-bottom: 15px;
-  border-bottom: 5px solid var(--secundary-color);
+  border-bottom: 5px solid var(--main-color);
 }
 
 a.nav-item.active{
   padding-bottom: 15px;
-  border-bottom: 5px solid var(--secundary-color);
+  border-bottom: 5px solid var(--main-color);
 
 }
 

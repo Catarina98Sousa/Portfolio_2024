@@ -16,7 +16,7 @@
       ),
       linear-gradient(90deg, #f0215f 0%, #f59193 100%);
     --header-color: rgb(255, 255, 255);
-    --bg-card: #f5f5f5;
+    --bg-card: #ffffff;
   
     /* profile */
     --prof-img: url('./images/galery/profile-pic.png');
@@ -27,7 +27,7 @@
     --btn-primary: linear-gradient(270deg, #f59193 0%, #f0215f 100%);
     --btn-secundary: linear-gradient(270deg, #f59193 0%, #f2bb88 100%);
     --swicth-btn: #f0215f;
-    --secundary-color: #f0215f;
+    --secundary-color: #f2bb88;
   
     /*   texts */
     --text: black;
@@ -53,10 +53,11 @@
      --prof-img: url('./images/galery/profile-picd.png');
   
     /* color */
+    --main-color: #f0215f;
     --btn-primary: linear-gradient(270deg, #ac3584 0%, #ed366c 100%);
     --btn-secundary: linear-gradient(270deg, #3428ad 0%, #ac3584 100%);
     --swicth-btn: #f0215f;
-    --secundary-color: #f0215f;
+    --secundary-color: #3428ad;
     --main-g-color:linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
   
     /* texts */
@@ -101,4 +102,22 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+
+  /* animation */
+
+/*   @keyframes apepear {
+    from{
+      opacity: 0;
+      scale:0.5;
+    }
+    to{
+      opacity: 1;
+      scale: 1;
+    }
+  }
+  .animation{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cober 40%;
+
+  } */

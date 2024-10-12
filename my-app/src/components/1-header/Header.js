@@ -12,6 +12,7 @@ import {Link} from "react-scroll";
 /* others */
 import React, { useState } from "react";
 
+
 function Header(props) {
   /* scroll change bg */
   const [header, setHeader] = useState(false);

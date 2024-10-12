@@ -23,7 +23,8 @@ function Contact(props) {
         <div className="col-md col-sm">
           <h1 className="title mb-5">Contact</h1>
         </div>
-      <div className="row pt-5 d-flex align-items-center">
+        
+     {/*  <div className="row pt-5 d-flex align-items-center">
           <div className="col-md col-sm">
             <div className="info mx-5">
                 <div className=" border mb-4">
@@ -49,7 +50,7 @@ function Contact(props) {
             </div>
           </div>
           <div className="col-md-1"></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

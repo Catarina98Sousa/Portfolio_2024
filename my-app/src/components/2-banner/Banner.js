@@ -13,8 +13,8 @@ import { FaCodepen } from "react-icons/fa";
 function Banner(props) {
   return (
     <div className="banner" id="home">
-      <div className="banner-wrapper">
-        <div className="banner-menu-icon">
+      <div className="banner-wrapper ">
+        <div className="banner-menu-icon ">
           
         <a className="icon-social" href="https://www.linkedin.com/in/catarina-sousa-386b69247/" > <FaLinkedinIn/></a>
         <a className="icon-social" href="https://codepen.io/SakuraCat" > <FaCodepen/></a> 
