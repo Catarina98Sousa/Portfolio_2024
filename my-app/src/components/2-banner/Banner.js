@@ -6,7 +6,7 @@ import "../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
 import Spline from '@splinetool/react-spline';
 import { TypeAnimation } from 'react-type-animation';
 import { FaLinkedinIn } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
+import { IoLogoGithub } from "react-icons/io";
 import { FaCodepen } from "react-icons/fa";
 
 
@@ -16,7 +16,9 @@ function Banner(props) {
       <div className="banner-wrapper">
         <div className="banner-menu-icon">
           
-        <div className="icon-social"><FaLinkedinIn/></div><div className="icon-social"><FaCodepen/></div ><div className="icon-social"><FiGithub/></div>
+        <a className="icon-social" href="https://www.linkedin.com/in/catarina-sousa-386b69247/" > <FaLinkedinIn/></a>
+        <a className="icon-social" href="https://codepen.io/SakuraCat" > <FaCodepen/></a> 
+        <a className="icon-social" href="https://github.com/Catarina98Sousa" > <IoLogoGithub/></a>
         </div>
         <div className="banner-intro">
           <h2> Hello, World! I'm </h2>

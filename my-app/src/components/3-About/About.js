@@ -7,11 +7,6 @@ import { Profile, ProfileDark } from "../../images/galery/profile.js";
  import { BsFillFileEarmarkPdfFill } from "react-icons/bs"; 
 
 
-
-/* import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom"; */
-
-
 function About(props) {
   return (
     <div className="About " id="about">
