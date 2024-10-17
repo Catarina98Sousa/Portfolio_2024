@@ -30,9 +30,9 @@ function App() {
     <div className="App" data-theme={theme}>
       <Header theme={theme} handleThemeChange={switchTheme} />
       <Banner/>
-      <About/>{/* 
+      <About/>
       <Projects/>
-      <Contact/> */}
+      <Contact/> 
       <Footer/>
       
 

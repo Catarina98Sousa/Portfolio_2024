@@ -1,27 +1,63 @@
+
+/* mains-btns (cv-btn + project)*/
 .btn-primary {
   cursor: pointer;
+  font-weight: 600;
+  background: var(--btn-primary);
+  color: var(--text)!important;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--btn-primary);
-  color: var(--text);
+  position: relative;
+  z-index: 0;
   border: none;
   border-radius: 50px;
-  padding: 15px;
-
-
+  padding: 15px 25px;
   transition: 0.5s ease;
 }
-.btn-primary:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--btn-secundary);
-  color: var(--text);
-  border: none;
-  border-radius: 50px;
-  padding: 15px;
+.btn-primary::after {
+  content: " ";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: var(--btn-primary);
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 50px; /* 2px a menos provavelmente */
 }
+
+.btn-primary::before{
+  content:"";
+  background: var(--color-degrade);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index:-1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+    
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius:50px;
+  opacity:0;
+}
+@keyframes glowing{
+  0% {background-position: 0 0 ;}
+  50% {background-position: 400% 0 ;}
+  100% {background-position: 0 0 ;}
+}
+
+.btn-primary:hover::before{
+  opacity:1;
+  
+}
+.btn-primary:hover::after{
+  opacity:0;
+} 
+
 
 .btn-secundary {
   cursor: pointer;
@@ -40,28 +76,17 @@
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  transition: 0.5s ease;
+  transition: 0.5s ease-in-out;
 }
 
 .btn-secundary:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   background: var(--btn-primary);
   color: var(--text);
-  border: none;
-  border-radius: 50px;
-  width: 100%;
-  max-width: 300px;
-  min-width: 100px;
-  height: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  transition: 0.5s ease;
 }
+/*---------- header btn --------------*/
 
+/* btn mudar mode */
 .swicth-btn {
   display: flex;
   justify-content: center;
@@ -94,13 +119,72 @@
   transition: 0.5s ease-in-out;
 }
 
-
-.icon-btn {
+/*---------- banner btn --------------*/
+/* icons social midia laterais */
+.icon-social{
+  opacity: 0.6;
+  color: var(--bg);
+  background-color: var(--text);
+  border: none;
+  border-radius: 5px; 
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
-  padding-right: 5px;
-  font-weight: var(--title-weight);
-}
+  position: relative;
+  z-index: 0;
+  opacity: 0.6; 
+  transition: 0.5s ease-in-out;
+  }
 
+  .icon-social::after{
+    content: " ";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--text);
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+  }
+
+  .icon-social::before{
+    content:"";
+  background: var(--color-degrade);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index:-1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(5px);
+    
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius:10px; 
+  opacity:0;
+}
+@keyframes glowing{
+  0% {background-position: 0 0 ;}
+  50% {background-position: 400% 0 ;}
+  100% {background-position: 0 0 ;}
+}
+.icon-social:hover::before{
+  opacity: 1;
+  }
+
+  .icon-social:hover{
+    opacity: 1;
+    color: var(--bg);
+    scale: 1.2;
+    }
+
+
+/*---------- About btn --------------*/
+/* tab btn */
 .tab-btn{
   cursor: pointer;
   display: flex;
@@ -128,15 +212,27 @@
   font-size: 18px;
 }
 
-.tab-btn:active{
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  background: var(--bg);
-  color: var(--text);
-  border: none;
-  padding: 10px;
+.tab-btn:focus{
   border-bottom: 4px solid var(--main-color);
-  font-size: 18px;
+  
 }
+
+
+
+/* cv icon */
+.text-btn{
+  display: flex;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.icon-btn {
+  font-size: 20px;
+  padding-right: 5px;
+  font-weight: var(--title-weight);
+}
+
+
+/*---------- Contacts btn --------------*/
+
+/*---------- footer btn --------------*/

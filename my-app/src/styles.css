@@ -6,6 +6,8 @@
 /* Root */
 :root {
     /* background */
+
+    --color-degrade: linear-gradient(45deg, #3428ad 0%, #f0215f 25%, #f59193 50%, #f0215f 75%, #3428ad 100%) ;
   
     --bg: #f5f7fb;
     --bg-color: linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
@@ -43,6 +45,7 @@
   
   [data-theme="dark"] {
     /* background */
+    --color-degrade: linear-gradient(45deg, #3428ad 0%, #f0215f 25%, #f59193 50%, #f0215f 75%, #3428ad 100%) ;
     --bg: #0c0615;
     --bg-color: linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
     --bg-color-2: linear-gradient(270deg, #3428ad 0%, #ac3584 100%);
@@ -89,7 +92,7 @@
   }
   a:hover {
     text-decoration: none;
-    color: var(--secundary-color);
+    color: var(--main-color);
     transition: 0.5s ease;
   }
   
@@ -98,10 +101,21 @@
   }
   
   .title {
-    background: var(--main-g-color);
+    font-size: 40px;
+    background: var(--color-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-size: 200%;
+    
+    animation: glowing 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
   }
+  @keyframes glowing{
+    0% {background-position: 0 0 ;}
+    50% {background-position: 400% 0 ;}
+    100% {background-position: 0 0 ;}
+  }
+  
 
   /* animation */
 
