@@ -1,95 +1,86 @@
 /* background */
 .Contact {
+  
+  padding-top: 80px;
+  padding-bottom: 180px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin: auto; 
+  background: var(--bg-card);
+}
+.Contact-wrapper{
   width: 100%;
-  height: 80vh;
-  background: var(--bg-color-2);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* header page */
-.icon {
-  width: 30px;
-}
-
-.location {
-  font-weight: var(--title-weight);
-  color: var(--text);
-  font-size: 40px;
-}
-.city {
-  font-weight: var(--title-weight);
-  color: var(--text);
-  font-size: 30px;
-}
-
-.text-end {
-  text-align: end;
-}
-/* Social midia */
-.midia {
+/*----------- 1º part--------- */
+.content-wrapper-contact{
   width: 100%;
-  max-width: 110px;
+  max-width: 1000px;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
-.social-big-def{
-  font-size: 110px;
+.info-wrapper{
+width: 50%;
+display: flex;
+
+}
+
+/* icon - content*/
+/* icon - btn.css */
+.icon-wrapper{
+height: 100%;
+
+}
+.icon-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+
+
+/* description */
+.text-description{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 10px;
+  
+}
+
+.description{
+color: var(--main-color);
+font-size: 24px;
+
+}
+.box{
   color: var(--text);
-  transition: 0.5s ease;
-  }
-  
-  .social-big-def:hover{
-    font-size: 110px;
-    color: var(--secundary-color);
-    }
+  font-size: 18px;
+  background-color: var(--bg);
+  padding: 20px;
+  border-radius: 20px;
+}
+.margin-costum{
+  margin-bottom: 20px;
+}
+/* -----------2º part pic ------------*/
+.image{
+  background-color: var(--bg);
+  width:50%;
+  margin-left: 60px;
+  height: 400px;
 
-.social-big{
-font-size: 105px;
-color: var(--text);
-padding: 10px;
-transition: 0.5s ease;
 }
-
-.social-big:hover{
-  font-size: 105px;
-  padding: 10px;
-  color: var(--secundary-color);
-  }
-/* Info */
-.info {
-  color: var(--text);
-  font-size: 20px;
-}
-.border {
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  /*border: 4px solid var(--text);*/
-  /*border-radius: 20px;*/
-}
-.sub-title {
-  font-size: var(--sub-title-size);
-}
-
-.mail {
-  font-size: 30px;
-  transition: 0.5s ease;
-}
-.mail:hover {
-  font-size: 30px;
-  color: var(--secundary-color);
-  
-}
-
-.number {
-  font-size: 30px;
-  transition: 0.5s ease;
-}
-.number:hover {
-  font-size: 30px;
-  color: var(--secundary-color);
-  
-}
-

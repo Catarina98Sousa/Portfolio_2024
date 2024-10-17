@@ -1,16 +1,43 @@
+/* background */
 .Projects {
-  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 140px;
+  padding-left: 20px;
+  padding-right:20px;
+  margin: auto; 
   background: var(--bg);
-  padding-bottom: 100px;
 }
+.Project-wrapper{
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* title */
+.title-wrapper{
+  width: 50%;
+  display: flex;
+  justify-content: start;
+}
+
+.btn-wrapper{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
 .arrow{
   stroke-width: 0.5px;
 }
 
 .articles {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  padding-top: 80px;
   gap: 20px;
 }
 

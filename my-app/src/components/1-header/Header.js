@@ -64,13 +64,13 @@ function Header(props) {
             </li>
             
             <li className="nav-item">
-            <Link to="projects" spy={true} smooth={true} offset={-58} duration={500} className="nav-item" >
+            <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} className="nav-item" >
                 Projects
               </Link>
             </li>
             <li className="nav-item">
-            <Link to="contact" spy={true} smooth={true} offset={0} duration={500} className="nav-item" >
-            Contact
+            <Link to="contact" spy={true} smooth={true} offset={-45} duration={500} className="nav-item" >
+                Contact
               </Link>
             </li>
             <button className="swicth-btn" onClick={props.handleThemeChange}>

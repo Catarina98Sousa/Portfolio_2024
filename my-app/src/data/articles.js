@@ -43,7 +43,7 @@ const articles = [
   },
   {
     id: 5,
-    title: "Carrosel javacript",
+    title: "Carrosel .js",
     image: CarroselIMG,
     link: "See more >",
     /*  url:
