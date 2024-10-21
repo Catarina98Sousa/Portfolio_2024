@@ -25,9 +25,9 @@ function Banner(props) {
           <TypeAnimation
       sequence={[
         'Catarina Sousa ',
-        1000, // wait 1s before replacing 
+        2000, // wait 1s before replacing 
         'Frontend Developer ',
-        1000]}wrapper="span" speed={50} className="color-intro" repeat={Infinity} />
+        2000]}wrapper="span" speed={20} className="color-intro" repeat={Infinity} />
         </div>
         <div className="banner-image">
         <Spline scene="https://prod.spline.design/MGn0zyYNIY2nMpcP/scene.splinecode" />
