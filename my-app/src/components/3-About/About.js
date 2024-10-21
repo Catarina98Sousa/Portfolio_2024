@@ -40,9 +40,9 @@ function About(props) {
     <div className="About " id="about">
       <div className="About-wrapper">
         {/* titulo */}
-        <div className="row"> <h1 className="title">About</h1> </div>
+        <div className="row scroll"> <h1 className="title">About</h1> </div>
 
-        <div className="content-wrapper">
+        <div className="content-wrapper scroll">
           {/*--------------------- imagem ---------------------*/}
           <div className="profile"> <img src={props.theme === "light" ? Profile : ProfileDark} alt="profile" className="pic-profile" /> </div>
 

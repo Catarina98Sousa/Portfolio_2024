@@ -29,8 +29,8 @@ function Projects(props) {
   return (
     <div className="Projects "  id="projects" >
       <div className="Project-wrapper">
-        <div className="row ">
-          <div className="title-wrapper">
+        <div className="row scroll">
+          <div className="title-wrapper ">
               <h1 className="title ">Projects</h1>
           </div>
             <div className="btn-wrapper">

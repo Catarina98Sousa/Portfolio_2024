@@ -13,11 +13,11 @@ function Contact(props) {
   return (
     <div className="Contact" id="contact">
       <div className="Contact-wrapper">
-        <div className="row">
+        <div className="row scroll">
           <h1 className="title ">Contact</h1>
         </div>
         
-        <div className="content-wrapper-contact">
+        <div className="content-wrapper-contact scroll">
 
           {/* ---------first part------ */}
           
