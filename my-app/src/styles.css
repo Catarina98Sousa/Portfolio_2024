@@ -10,13 +10,7 @@
     --color-degrade: linear-gradient(45deg, #3428ad 0%, #f0215f 25%, #f59193 50%, #f0215f 75%, #3428ad 100%) ;
   
     --bg: #f5f7fb;
-    --bg-color: linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
-    --bg-color-2: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.2),
-        rgba(255, 255, 255, 0.2)
-      ),
-      linear-gradient(90deg, #f0215f 0%, #f59193 100%);
+    
     --header-color: rgb(255, 255, 255);
     --bg-card: #ffffff;
   
@@ -25,7 +19,6 @@
   
     /* color */
     --main-color: #f0215f;
-    --main-g-color:linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
     --btn-primary: linear-gradient(270deg, #f59193 0%, #f0215f 100%);
     --btn-secundary: linear-gradient(270deg, #f59193 0%, #f2bb88 100%);
     --swicth-btn: #f0215f;
@@ -47,8 +40,6 @@
     /* background */
     --color-degrade: linear-gradient(45deg, #3428ad 0%, #f0215f 25%, #f59193 50%, #f0215f 75%, #3428ad 100%) ;
     --bg: #0c0615;
-    --bg-color: linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
-    --bg-color-2: linear-gradient(270deg, #3428ad 0%, #ac3584 100%);
     --header-color: rgba(0, 0, 0, 0.8);
     --bg-card: #25233b;
   
@@ -61,7 +52,6 @@
     --btn-secundary: linear-gradient(270deg, #3428ad 0%, #ac3584 100%);
     --swicth-btn: #f0215f;
     --secundary-color: #3428ad;
-    --main-g-color:linear-gradient(90deg, #f0215f 0%, #3428ad 20%);
   
     /* texts */
     --text: white;
