@@ -41,3 +41,20 @@
   gap: 20px;
 }
 
+/* phone */
+@media screen and (width <= 425px) {
+.title-wrapper{
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.btn-wrapper{
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+.articles{
+  padding-top: 20px;
+}
+}

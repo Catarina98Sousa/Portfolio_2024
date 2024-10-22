@@ -11,11 +11,11 @@ function Footer(props) {
   return (
     <div className="footer">
       <div className="container">
-        <div className="row mx-2">
-          <div className="col by mt-3">
+        <div className="row mx-2 py-3">
+          <div className="col by">
             <p>Developed by Catarina Sousa</p>
           </div>
-          <div className="col d-flex justify-content-end align-items-end pt-2 gap-1">
+          <div className="col d-flex justify-content-end align-items-center gap-1">
             <a href="https://www.linkedin.com/in/catarina-sousa-386b69247/" >
             <FaLinkedinIn className="social-icon mx-1" /></a>
             <a href="https://github.com/Catarina98Sousa" >

@@ -107,6 +107,13 @@
   }
   
 
+/* phone */
+@media screen and (width <= 425px) {
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+}
   /* animation */
 
    @keyframes appear {
@@ -122,6 +129,6 @@
   .scroll{
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 30%;
 
   } 

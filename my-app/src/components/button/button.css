@@ -303,4 +303,9 @@
       opacity:1;
     }
 
+    @media screen and (width <= 425px) {
+      .icon-contact{
+        font-size: 40px;
+      }
+    }
 /*---------- footer btn --------------*/
