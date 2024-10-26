@@ -2,8 +2,8 @@
 .Projects {
   padding-top: 40px;
   padding-bottom: 140px;
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 80px;
+  padding-right:80px ;
   margin: auto; 
   background: var(--bg);
 }
@@ -43,6 +43,10 @@
 
 /* phone */
 @media screen and (width <= 425px) {
+  .Projects{
+    padding-left: 20px;
+    padding-right:20px ;
+  }
 .title-wrapper{
   width: 100%;
   justify-content: center;

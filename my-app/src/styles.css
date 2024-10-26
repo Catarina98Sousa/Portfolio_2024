@@ -113,6 +113,11 @@
     display: flex;
     justify-content: center;
   }
+  .scroll{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+  } 
 }
   /* animation */
 

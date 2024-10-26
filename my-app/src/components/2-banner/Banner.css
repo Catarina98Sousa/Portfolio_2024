@@ -3,8 +3,8 @@
   height: 100vh;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 20px;
-  padding-right:20px ;
+  padding-left: 80px;
+  padding-right:80px ;
   margin-left: auto;
   margin-right: auto;
   background-color: var(--bg);
@@ -64,6 +64,21 @@ width: 50%;
   .banner {
     padding-bottom: 20px;
   }
+
+  .banner-wrapper {
+    padding-top: 0px;
+  }
+
+  .icon-social {
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+
+  .banner-intro {
+    font-size: 20px; /* Further reduce font size */
+  }
+  .color-intro {
+    font-size: 29px; /* Further reduce */
+  }
 }
 
 
@@ -72,6 +87,8 @@ width: 50%;
   .banner {
     height: auto;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right:20px ;
   }
 
   .banner-wrapper {

@@ -72,49 +72,49 @@ function About(props) {
                   <div className="content-skills"> 
                   <div className="grid-skills"> 
                     {/* row 1 */}
-                    <div className="item">
+                    <div className="item scroll">
                     <div className="item-img"><FaHtml5 /> </div>
                       <div className="item-legend">HTML 5 </div>
                     </div>
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><FaCss3Alt /></div>
                       <div className="item-legend">CSS 3 </div>
                     </div>
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><FaSass /></div>
                       <div className="item-legend">Sass/Scss </div>
                     </div>
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><IoLogoJavascript /></div>
                       <div className="item-legend">Javascript </div>
                     </div>
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><FaReact /></div>
                       <div className="item-legend">React </div>
                     </div>
                       
                     {/* row 2 */}
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><SiAdobeillustrator /></div>
                       <div className="item-legend">Ilustrator </div>
                     </div>
 
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><SiAdobephotoshop /></div>
                       <div className="item-legend">Photoshop </div>
                     </div>
 
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><SiAdobepremierepro /></div>
                       <div className="item-legend">Premiere </div>
                     </div>
 
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><VscVscodeInsiders /></div>
                       <div className="item-legend">VsCode </div>
                     </div>
 
-                    <div className="item">
+                    <div className="item scroll">
                       <div className="item-img"><FaFigma /></div>
                       <div className="item-legend">Figma </div>
                     </div>
@@ -125,7 +125,7 @@ function About(props) {
 
                 {/* CV content */}
                 {activeTab === 'Tab2' && <div  >
-                  <div className="cv-btn-wrapper">
+                  <div className="cv-btn-wrapper scroll">
                     {/* btn en */}
                     <a href="CV-EN-Catarina Sousa.pdf" download="CV-EN-Catarina Sousa.pdf" className="btn-primary">
                     <p className="text-btn"> Download CV <span className="lang"> EN</span><span className="icon-btn"><FiDownload /> </span></p>

@@ -3,8 +3,8 @@
   width: 100%;
   padding-top: 20px;
   padding-bottom: 80px;
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 80px;
+  padding-right:80px ;
   margin: auto;
   background-color: var(--bg);
 }
@@ -127,11 +127,32 @@ grid-template-rows:100px 100px  ;
 }
 
 
+
+/* tablet */
+@media screen and (max-width: 768px) {
+
+  .tab-content{
+    position: relative;
+    right: 140px;
+  }
+
+  .cv-btn-wrapper{
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .wrapper-info{
+    padding-bottom: 0;
+  }
+}
+
 /* phone */
 @media screen and (width <= 425px) {
   
   .About{
-    padding-top: 140px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right:20px ;
   }
 
   .content-wrapper{
@@ -158,6 +179,10 @@ grid-template-rows:100px 100px  ;
 }
 .list-tab-btn {
   padding-top: 40px;
+}
+.tab-content{
+  position: relative;
+  right: 0px;
 }
   .grid-skills{
     display: grid;

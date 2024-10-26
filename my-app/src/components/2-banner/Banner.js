@@ -24,7 +24,7 @@ function Banner(props) {
           <h2> Hello, World! I'm </h2>
           <TypeAnimation
       sequence={[
-        'Catarina Sousa ',
+        'Catarina Sousa',
         2000, // wait 1s before replacing 
         'Frontend Developer ',
         2000]}wrapper="span" speed={20} className="color-intro" repeat={Infinity} />

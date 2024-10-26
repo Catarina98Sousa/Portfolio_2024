@@ -3,8 +3,8 @@
   
   padding-top: 80px;
   padding-bottom: 180px;
-  padding-left: 20px;
-  padding-right:20px;
+  padding-left: 80px;
+  padding-right:80px ;
   margin: auto; 
   background: var(--bg-card);
 }
@@ -23,6 +23,7 @@
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  gap: 60px;
 }
 
 .info-wrapper{
@@ -51,7 +52,6 @@ height: 100%;
 
 /* description */
 .text-description{
-  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,9 +80,21 @@ font-size: 24px;
 .image{
   background-color: var(--bg);
   width:50%;
-  margin-left: 60px;
   height: 400px;
 
+}
+@media screen and (max-width: 768px) {
+
+  .content-wrapper-contact{
+    justify-content: space-between;
+
+  }
+  .image{
+    width: 30%;
+    height: 200px;
+    margin-bottom: auto;
+    margin-top: auto;
+  }
 }
 
 /* phone */
@@ -90,10 +102,13 @@ font-size: 24px;
   
   .Contact{
     padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right:20px ;
   }
   .content-wrapper-contact{
     flex-direction: column;
     padding-top: 40px;
+    gap: 10px;
 
   }
   .info-wrapper{
