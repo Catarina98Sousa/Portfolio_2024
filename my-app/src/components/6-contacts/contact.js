@@ -2,6 +2,7 @@
 import "../6-contacts/contact.css";
 import "../button/button.css";
 
+import Spline from '@splinetool/react-spline';
 
 /* icon-react */
 import { BsGeoAltFill } from "react-icons/bs";
@@ -48,7 +49,7 @@ function Contact(props) {
 
           {/* ---------second part------ */}
           <div className="image"> 
-
+          <Spline scene="https://prod.spline.design/qR3fJABdN-VOB8KA/scene.splinecode" />
           </div>
 
         </div>
